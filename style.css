@@ -1,0 +1,225 @@
+header{
+    display: flex;
+    flex-direction: column-reverse;
+    top: 0px;
+    left: 10px;
+    height: 80px;
+    width: 100%;
+    background-color: rgba(35, 169, 184, 0.915);
+    padding:0px 0px 0;
+    box-shadow: 2px 2px 4px;
+    }
+
+h1{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-top: 1px;
+    margin-bottom: 0px; 
+    padding-bottom: 0px;
+    text-align: left;
+    
+}
+.logo {
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-left: 17px;
+    width: 150px;
+    height: 100px;
+}
+ .nav-links{ 
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    list-style: none;
+    height: 100vh;
+width: 150px;    
+position: fixed;
+left: 0px;
+top: 67px;
+z-index: 100;
+/* background: rgba(209, 214, 214, 0.795);    */
+border: 10px; 
+}
+.nav-links li{
+    font-size: 17px;
+    height: 40px;
+    padding: 10px;
+    color: rgba(35, 169, 184, 0.915);
+    
+}
+ .nav-links li a{ 
+    font-size: 15px;
+    height: 120%;
+    width: 120%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:rgba(35, 169, 184, 0.915);
+     transition: all 0.4s ease; 
+     box-shadow: 2px 2px 4px; 
+}
+.nav-links li a :hover{
+    background: rgba(35, 169, 184, 0.915);
+    text-align: center;
+    
+    height: 80%;
+    width:100%;
+    box-shadow: 1px 1px 2px rgb(15, 12, 0);
+    color: white;
+}
+.nav-links li a i{
+    min-width: 0px;
+    text-align: center;
+color: rgba(35, 169, 184, 0.915);
+font: size 18px;
+
+}
+
+
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family:'Cairo'; sans-serif;
+}
+body{
+min-height: 100vh;
+width: 100%;
+}
+.sidebar{
+
+top: 0px;
+left: 0px;
+height: 100%;
+width: 230px;
+background-color:rgb(6, 6, 97);
+padding:80px 0 20px 0;
+
+}
+.logo-details {
+ height: 60px;
+ width: 100%;
+ display: flex;
+ align-items: center;
+}
+.logo-details i{
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+}
+.logo_name{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    margin-left:15px; 
+    text-align: center;
+    
+}
+ .nav-links{
+    margin-top: 40px;
+ }
+ .nav-links li{
+    height: 50px;
+    width: 100%;
+    list-style: none;
+    
+}
+.nav-links1 li a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+.nav-links1 li a :hover{
+   background: red;
+}
+.nav-links li a i{
+/* background-color: red; */
+min-width: 0px;
+text-align: center;
+color: white;
+font: size 17px; 
+}
+/*
+.link_name{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
+ .Home-section{ 
+ background: lightgray; 
+ position: relative; 
+ left: 230px; 
+ min-height: 100vh; 
+ width: calc(100%- 230px); 
+
+}
+.Home-section nav{
+    height: 55px ;
+    width:100% ;
+    top: 0px;
+    left: 0px;
+    background:gainsboro;
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+    padding-left: 6rem;
+}
+.sidebar-button {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.sidebar-button i{
+    font-size: 30px;
+    margin-right: 12px;
+}
+.searsh-box{
+    height: 30px;
+    width: 350px;
+    margin: 40px;
+    position:relative;
+}
+.searsh-box input{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    padding: 0 15px;
+    font-size:17px ;
+    color: black;
+    background:whitesmoke;
+    border: 2px solid silver;
+    outline:none;
+}
+.bx-search{
+    position: absolute;
+    top: 28px;
+    right: 1px;
+    transform: translateY(-50%);
+    height: 40px;
+    width: 0px;
+    border-radius: 30px;
+    font-size: 20px;
+    color: darkgray;
+    line-height: 40px;
+    text-align: center;
+}
+.logo {
+    margin: 50px;
+    width: 120px;
+    height: 80px;
+}
+#element{
+    display: flex;
+}
